@@ -10,24 +10,22 @@
     "preview": "shopify hydrogen preview"
   },
   "dependencies": {
-    "@shopify/hydrogen": "latest",
-    "@shopify/remix-oxygen": "latest",
-    "@shopify/shopify-app-remix": "latest",
-    "@shopify/shopify-cli": "latest",
-    "isbot": "latest",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "remix": "latest"
+    "@shopify/hydrogen": "^2024.7.0",
+    "@shopify/remix-oxygen": "^2.4.0",
+    "@remix-run/react": "^2.10.0",
+    "isbot": "^3.6.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "latest",
-    "@remix-run/serve": "latest",
-    "@types/react": "18.3.1",
-    "@types/react-dom": "18.3.1",
-    "eslint": "latest",
-    "typescript": "latest",
-    "vite": "latest",
-    "vite-tsconfig-paths": "latest"
+    "@remix-run/dev": "^2.10.0",
+    "@shopify/cli": "^3.59.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "engines": {
     "node": ">=18.0.0"
